@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"josefcalderon/gocero/ejercicios"
 )
 
@@ -28,8 +27,14 @@ func main() {
 		default:
 			fmt.Printf("%s \n", os)
 		}*/
-	numero, texto := ejercicios.ConvNumerico("hgjh")
-	fmt.Println(numero)
-	fmt.Println(texto)
 
+	/*numero, texto := ejercicios.ConvNumerico("hgjh")
+	fmt.Println(numero)
+	fmt.Println(texto)*/
+
+	//teclado.IngresoNumeros()
+
+	//iteraciones.Iterar()
+
+	ejercicios.TabladeMultiplicar()
 }
