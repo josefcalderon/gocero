@@ -1,7 +1,7 @@
 package main
 
 import (
-	"josefcalderon/gocero/files"
+	"josefcalderon/gocero/users"
 )
 
 func main() {
@@ -39,5 +39,9 @@ func main() {
 	//fmt.Println(ejercicios.TabladeMultiplicar())
 	//files.GrabaTabla()
 	//files.SumaTabla()
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	//funciones.Calculos()
+	//funciones.LlamarClouse()
+	//funciones.Exponencia(2)
+	users.AltaUsuario()
 }
