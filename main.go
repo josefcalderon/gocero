@@ -1,7 +1,8 @@
 package main
 
 import (
-	"josefcalderon/gocero/users"
+	"fmt"
+	"josefcalderon/gocero/gorutines"
 )
 
 func main() {
@@ -43,5 +44,14 @@ func main() {
 	//funciones.Calculos()
 	//funciones.LlamarClouse()
 	//funciones.Exponencia(2)
-	users.AltaUsuario()
+	/*
+		Pedro := new(models.Hombre)
+		ejerinterfaces.HumanosRespirando(Pedro)
+
+		Maria := new(models.Mujer)
+		ejerinterfaces.HumanosRespirando(Maria)*/
+	go gorutines.MiNombreLentooo("Edwin Josef")
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scan(&x)
 }
