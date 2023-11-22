@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"josefcalderon/gocero/gorutines"
+	"josefcalderon/gocero/webserver/middleware"
 )
 
 func main() {
@@ -50,8 +49,16 @@ func main() {
 
 		Maria := new(models.Mujer)
 		ejerinterfaces.HumanosRespirando(Maria)*/
-	go gorutines.MiNombreLentooo("Edwin Josef")
+	/*canal1 := make(chan bool)
+	go gorutines.MiNombreLentooo("EJCALDERON", canal1)
+	defer func() {
+		<-canal1
+	}()
+
+	//go gorutines.MiNombreLentooo("Edwin Josef")
 	fmt.Println("Estoy aqui")
 	var x string
-	fmt.Scan(&x)
+	fmt.Scanln(&x)*/
+
+	middleware.MyMiddleware()
 }
